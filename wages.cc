@@ -37,7 +37,7 @@ int main(int argc, char const *argv[]) {
     ///#
     cout << fixed << setprecision(2) << showpoint;
     cout << setw(25) << "Your hourly rate: $" << rate << endl;
-    cout << setw(24) << "Hours worked: " << hours << endl;
+    cout << setw(25) << "Hours worked: $" << hours << endl;
     cout << setw(25) << "Weekly pay: $" << wages << endl;
     return 0;
 }// main
